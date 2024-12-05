@@ -1,0 +1,92 @@
+/* Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0047ab;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center; /* Alinha logo e título na mesma linha */
+    justify-content: flex-start; /* Mantém tudo alinhado à esquerda */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 180px; /* Aumentando a logo 1,5 vezes */
+    height: auto; /* Mantém a proporção */
+}
+
+main {
+    padding: 30px;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Títulos */
+h2, h3 {
+    color: #0047ab;
+    margin-bottom: 20px;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #0047ab;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Status */
+.aprovado {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.reprovado {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
